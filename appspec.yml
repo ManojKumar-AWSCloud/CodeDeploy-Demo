@@ -1,5 +1,5 @@
 version: 0.0
-os: Linux
+os: linux
 hooks:
   Applicationstop:  
     - location: scripts/stop_container.sh
@@ -9,3 +9,6 @@ hooks:
     - location: scripts/start_container.sh
       timeout: 300
       runas:  root
+
+
+      
